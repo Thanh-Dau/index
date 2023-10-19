@@ -46,7 +46,12 @@
         </div>
     </div>
     <script>
-        window.alert("Xem trên điện thoại nó sẽ không được đẹp. Nếu được chị nên xem trên máy tính nha!!!");
+        var result = confirm("Xem trên điện thoại nó sẽ không được đẹp. Nếu được chị nên xem trên máy tính nha!!!");
+        if (result == true) {
+            alert("Chị đã hiểu.");
+        } else {
+            alert("Chị chưa hiểu.");
+        }
     </script>
     <script src="https://code.jquery.com/jquery-latest.js"></script>
 </body>
